@@ -132,6 +132,12 @@ a {
   margin: 0 5px;
 }
 
+.construction {
+  text-align: center;
+  padding: 5px;
+  background-color: #FF7F50;
+}
+
 /* Start https://www.cursors-4u.com */
 * {
   cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym635.ani),
