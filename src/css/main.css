@@ -1,36 +1,92 @@
 @font-face {
-    font-family: 'Retro Cute';
-    src: url('../fonts/04B_30__.TTF') format('truetype'),
-         url('../fonts/04B_30__.WOFF') format('woff'),
-         url('../fonts/04B_30__.WOFF2') format('woff2');
+  font-family: "Retro Cute";
+  src: url("../fonts/04B_30__.TTF") format("truetype"),
+    url("../fonts/04B_30__.WOFF") format("woff"),
+    url("../fonts/04B_30__.WOFF2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Dogica Pixel';
-    src: url('../fonts/dogicapixel.TTF') format('truetype'),
-        url('../fonts/dogicapixel.WOFF') format('woff'),
-        url('../fonts/dogicapixel.WOFF2') format('woff2');
+  font-family: "Dogica Pixel";
+  src: url("../fonts/dogicapixel.TTF") format("truetype"),
+    url("../fonts/dogicapixel.WOFF") format("woff"),
+    url("../fonts/dogicapixel.WOFF2") format("woff2");
 }
 
 @font-face {
-    font-family: 'Dogica Pixel Bold';
-    src: url('../fonts/dogicapixelbold.TTF') format('truetype'),
-        url('../fonts/dogicapixelbold.WOFF') format('woff'),
-        url('../fonts/dogicapixelbold.WOFF2') format('woff2');
+  font-family: "Dogica Pixel Bold";
+  src: url("../fonts/dogicapixelbold.TTF") format("truetype"),
+    url("../fonts/dogicapixelbold.WOFF") format("woff"),
+    url("../fonts/dogicapixelbold.WOFF2") format("woff2");
 }
 
 body {
-    background-color: PowderBlue;
+  background-color: PowderBlue;
 }
 
 h1 {
-    font-family: 'Retro Cute', sans-serif;
+  font-family: "Retro Cute", sans-serif;
 }
 
 p {
-    font-family: 'Dogica Pixel', sans-serif;
+  font-family: "Dogica Pixel", sans-serif;
+}
+
+span {
+  font-family: "Dogica Pixel", sans-serif;
 }
 
 p b {
-    font-family: 'Dogica Pixel Bold', sans-serif;
+  font-family: "Dogica Pixel Bold", sans-serif;
 }
+
+span b {
+  font-family: "Dogica Pixel Bold", sans-serif;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.full-page {
+  display: grid;
+  justify-content: center;
+}
+
+.nav {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.logo {
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-pic {
+  background-color: grey;
+  height: 400px;
+  width: 300px;
+  margin: 0 20px;
+}
+
+.bio {
+  margin: 0 20px;
+}
+
+.resume {
+  text-align: center;
+}
+
+/* Start https://www.cursors-4u.com */
+* {
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym635.ani),
+    url(https://cur.cursors-4u.net/symbols/sym-7/sym635.png), auto !important;
+} /* End https://www.cursors-4u.com */
