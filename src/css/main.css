@@ -71,6 +71,7 @@ ul {
 .about {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .my-pic {
@@ -78,10 +79,25 @@ ul {
   height: 400px;
   width: 300px;
   margin: 0 20px;
+  align-self: center;
+  display: grid;
 }
 
 .bio {
   margin: 0 20px;
+  width: 50%;
+}
+
+@media screen and (max-width: 775px) {
+  .bio {
+    margin: 0 20px;
+    width: 100%;
+  }
+}
+
+.bio-text {
+  line-height: 2;
+  font-size: 16px;
 }
 
 .resume {
