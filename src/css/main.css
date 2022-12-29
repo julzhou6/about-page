@@ -58,7 +58,10 @@ ul {
 
 .nav {
   text-align: center;
-  justify-content: space-between;
+}
+
+.nav-item {
+  margin: 0 10px;
 }
 
 .logo {
@@ -83,6 +86,34 @@ ul {
 
 .resume {
   text-align: center;
+}
+
+.socials {
+  display: flex;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.socials ul li:where(:hover, :focus) a {
+  filter: drop-shadow(2px 3px 2px rgb(255 215 0));
+}
+
+.nav-item a:where(:hover, :focus) {
+  border-bottom: 2px solid black;
+}
+
+[aria-current="page"] {
+  border-bottom: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon {
+  margin: 0 5px;
 }
 
 /* Start https://www.cursors-4u.com */
