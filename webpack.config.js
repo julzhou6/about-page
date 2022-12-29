@@ -2,9 +2,14 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 
+let mode = "development";
+if (process.env.NODE_ENV === "production") {
+  mode = "production";
+}
+
 module.exports = {
   entry: "./src/js/app.js",
-  mode: "production",
+  mode: mode,
   output: {
     path: `${__dirname}/dist`,
     filename: "bundle.js",
