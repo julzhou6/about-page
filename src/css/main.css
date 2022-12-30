@@ -24,23 +24,23 @@ body {
 }
 
 h1 {
-  font-family: "Retro Cute", sans-serif;
+  font-family: "Retro Cute", monospace;
 }
 
 p {
-  font-family: "Dogica Pixel", sans-serif;
+  font-family: "Dogica Pixel", monospace;
 }
 
 span {
-  font-family: "Dogica Pixel", sans-serif;
+  font-family: "Dogica Pixel", monospace;
 }
 
 p b {
-  font-family: "Dogica Pixel Bold", sans-serif;
+  font-family: "Dogica Pixel Bold", monospace;
 }
 
 span b {
-  font-family: "Dogica Pixel Bold", sans-serif;
+  font-family: "Dogica Pixel Bold", monospace;
 }
 
 li {
