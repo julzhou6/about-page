@@ -1,0 +1,49 @@
+{
+    "Characters": {
+        "Julie": {
+            "Happy": "src/assets/shinobu-happy.png",
+            "Thinking": "src/assets/shinobu-thinking.png"
+        }
+    }, 
+    "Scene1": {
+        "Background": "src/assets/animebg.png",
+        "PAGES": {
+            "Page0": {
+                "Character": "Julie", 
+                "Sprite": "Happy", 
+                "PageText": "Hello I didn't see you there!"
+            },
+            "Page1": {
+                "Character": "Julie", 
+                "Sprite": "Happy", 
+                "PageText": "Welcome to my boba shop. Feel free to take a look around."
+            },
+            "Page2": {
+                "Character": "Julie", 
+                "Sprite": "Thinking", 
+                "PageText": "And you can also order a drink! Although you won't actually get a physical drink..."
+            },
+            "Page3": {
+                "Character": "Julie", 
+                "Sprite": "Happy", 
+                "PageText": "But still! Enjoy!"
+            }, 
+            "Page4": {
+                "Character": "Me", 
+                "Sprite": "Restr", 
+                "PageText": "", 
+                "Options": 
+                {
+                    "Finish?": "Page5",
+                    "Restart": "Page0"
+                }
+            }, 
+            "Page5": {
+                "Character": "Me", 
+                "Sprite": "Thinking", 
+                "PageText": "Thank you for reading!", 
+                "NextPage": "End"
+            }
+        }
+    }
+}
