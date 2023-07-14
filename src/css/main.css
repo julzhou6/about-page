@@ -139,11 +139,37 @@ li {
 .my-gif {
   width: 100%;
   justify-self: center;
+  filter: drop-shadow(15px 15px 0px #9932CC);
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
 }
 
 .bio {
   margin-left: 20px;
   width: 50%;
+}
+
+blockquote {
+  background: #FFFFF0;
+  border-color: black black black #87CEEB;
+  border-width: 2px 2px 2px 10px;
+  border-style: solid;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #87CEEB;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
 }
 
 figcaption {
